@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/cell/TargetList",
     "pages/video/VideoIndex",
-    "pages/demo/Demo"
+    "pages/demo/Demo",
+    "pages/dialog/DialogIndex"
   ]
 }
