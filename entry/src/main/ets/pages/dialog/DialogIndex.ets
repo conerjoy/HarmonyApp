@@ -1,4 +1,5 @@
 import { StandardButton } from '../view/StandardButton'
+import CustomDialogWidget from './CustomDialogWidget'
 import promptAction from '@ohos.promptAction';
 import Prompt from '@system.prompt';
 
@@ -9,6 +10,16 @@ struct DialogIndex {
   private select: number = 0
   private selectedDate: Date = new Date('2010-1-1');
   private selectedTime: string = ""
+  @State hobbies: string = ""
+  customDialogController: CustomDialogController = new CustomDialogController({
+    builder: CustomDialogWidget({
+      title: "兴趣爱好",
+      hobbies: $hobbies,
+    }),
+    autoCancel: false,
+    alignment: DialogAlignment.Bottom,
+    offset: { dx: 0, dy: -20 }
+  })
 
   build() {
     Column() {
@@ -81,7 +92,7 @@ struct DialogIndex {
         })
       } })
       StandardButton({ name: '自定义弹窗', click: () => {
-
+        this.customDialogController.open()
       } })
     }.width('100%')
   }
