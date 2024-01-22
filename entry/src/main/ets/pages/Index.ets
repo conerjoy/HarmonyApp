@@ -31,6 +31,9 @@ struct Index {
       this.StandardButton("动画", () => {
         router.pushUrl({url: "pages/animation/AnimationIndex"})
       })
+      this.StandardButton("webview", () => {
+        router.pushUrl({url: "pages/web/WebviewIndex"})
+      })
     }.alignItems(HorizontalAlign.Center)
     .width('100%')
   }
