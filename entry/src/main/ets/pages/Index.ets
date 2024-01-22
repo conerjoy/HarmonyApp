@@ -28,6 +28,9 @@ struct Index {
       this.StandardButton("弹窗", () => {
         router.pushUrl({url: "pages/dialog/DialogIndex"})
       })
+      this.StandardButton("动画", () => {
+        router.pushUrl({url: "pages/animation/AnimationIndex"})
+      })
     }.alignItems(HorizontalAlign.Center)
     .width('100%')
   }

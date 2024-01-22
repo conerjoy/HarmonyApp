@@ -4,6 +4,7 @@
     "pages/cell/TargetList",
     "pages/video/VideoIndex",
     "pages/demo/Demo",
-    "pages/dialog/DialogIndex"
+    "pages/dialog/DialogIndex",
+    "pages/animation/AnimationIndex"
   ]
 }
