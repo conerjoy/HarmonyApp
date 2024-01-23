@@ -37,6 +37,9 @@ struct Index {
       this.StandardButton("网络请求", () => {
         router.pushUrl({url: "pages/http/HttpIndex"})
       })
+      this.StandardButton("缓存", () => {
+        router.pushUrl({url: "pages/preferences/PreferencesIndex"})
+      })
     }.alignItems(HorizontalAlign.Center)
     .width('100%')
   }

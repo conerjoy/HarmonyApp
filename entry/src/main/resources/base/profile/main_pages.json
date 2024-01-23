@@ -7,6 +7,7 @@
     "pages/dialog/DialogIndex",
     "pages/animation/AnimationIndex",
     "pages/web/WebviewIndex",
-    "pages/http/HttpIndex"
+    "pages/http/HttpIndex",
+    "pages/preferences/PreferencesIndex"
   ]
 }
