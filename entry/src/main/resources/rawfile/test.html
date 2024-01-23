@@ -5,6 +5,15 @@
 <script type="text/javascript">
 function showDialog() {
     alert('111')
+    console.log('打印点什么')
+}
+
+function h5Fun() {
+    return '来自h5'
+}
+
+function callNative() {
+    window.kye.test('h5内容')
 }
 </script>
 </head>
@@ -14,6 +23,7 @@ function showDialog() {
 <h1>随便写一个网页</h1>
 
 <button onclick="showDialog()">弹出一个弹窗</button>
+<button onclick="callNative()">调用原生</button>
 
 
 </body>
