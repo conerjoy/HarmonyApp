@@ -6,6 +6,7 @@
     "pages/demo/Demo",
     "pages/dialog/DialogIndex",
     "pages/animation/AnimationIndex",
-    "pages/web/WebviewIndex"
+    "pages/web/WebviewIndex",
+    "pages/http/HttpIndex"
   ]
 }

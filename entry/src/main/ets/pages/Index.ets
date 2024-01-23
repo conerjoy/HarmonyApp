@@ -34,6 +34,9 @@ struct Index {
       this.StandardButton("webview", () => {
         router.pushUrl({url: "pages/web/WebviewIndex"})
       })
+      this.StandardButton("网络请求", () => {
+        router.pushUrl({url: "pages/http/HttpIndex"})
+      })
     }.alignItems(HorizontalAlign.Center)
     .width('100%')
   }
