@@ -40,6 +40,9 @@ struct Index {
       this.StandardButton("缓存", () => {
         router.pushUrl({url: "pages/preferences/PreferencesIndex"})
       })
+      this.StandardButton("轨迹控件", () => {
+        router.pushUrl({url: "pages/path/PathIndex"})
+      })
     }.alignItems(HorizontalAlign.Center)
     .width('100%')
   }

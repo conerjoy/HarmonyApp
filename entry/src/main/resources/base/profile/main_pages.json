@@ -8,6 +8,7 @@
     "pages/animation/AnimationIndex",
     "pages/web/WebviewIndex",
     "pages/http/HttpIndex",
-    "pages/preferences/PreferencesIndex"
+    "pages/preferences/PreferencesIndex",
+    "pages/path/PathIndex"
   ]
 }
